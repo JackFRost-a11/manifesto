@@ -5,57 +5,46 @@
 	<title>Ththththink</title>
 	<style>
 		body {
-			font-family: 'Helvetica', 'Arial', sans-serif;
-			background-color: pink;
-			color: green;
+			font-family: 'Times New Roman, sans-serif;
+			background-color: rgb(248, 218, 100);
+			color: rgb(0, 0, 0);
 		}
 		div {
 			font-weight: bold;
 			font-size: 60px;
-			transform: rotate(2deg);/
+			transform: rotate(0deg);/
 			margin-top: 35px;
 			margin-bottom: 35px;
-		}
-		h1 {
-			color: aquamarine;
-			font-weight: bold;
-			font-size: 220px;
-			letter-spacing: 12px;
-			margin-top: -80px;
-			margin-bottom: -80px;
-		}
-
-		.offset {
-			margin-left: 30px;
-		}
-		.offset span {
-			display: inline-block;
-			transform: rotate(12deg);
 		}
 	</style>
 </head>
 
 <body>
-	<div>Th</div>
-	<div>Th</div>
-	<div>Th</div>
-	<div>Th</div>
-	<div>ThThTh</div>
-	<div>ThThTh</div>
-	<div>ThThTh</div>
-	<div>ThThTh</div>
-	<div>TTThhhh!!!!</div>
-	<div>Th!nk </div>
-	<h1 class="offset">
-		diff<span>e</span>r<span style="transform:rotate(-12deg);">e</span>nt
+<div class="arrow-container">
+  <p>
+    The forefinger too is always searching for direction.
+    The hand's pointer tentatively feels its way forward, bids the other fingers follow.
+    On some objects we discovered “hollows” to accommodate the forefinger.
+  </p>
+</div>
+
+.arrow-container {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
 	</h1>
-	<div class="offset">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</div>
 
     <script>
-		alert("Hello, World!");
+		alert("Forefinger");
 		console.log("Hello, from the console!");
 	</script>
-    
+
 </body>
 
 </html>
